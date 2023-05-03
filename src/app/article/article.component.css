@@ -1,0 +1,31 @@
+.points {
+    background-color: rgb(218, 217, 217);
+    padding: 12px 24px;
+    font-size: 22px;
+    border-radius: 6px  ;
+    text-align: center;
+}
+
+.article {
+    display: flex;
+    /* flex-direction: column; */
+}
+.votes {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.article-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.text {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 22px;
+}

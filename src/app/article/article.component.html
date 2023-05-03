@@ -1,0 +1,33 @@
+<div class="article">
+<div class="four wide column center aligned votes">
+    <div class="points">
+        <div class="value">
+            {{ article.votes }}
+        </div>
+        <div class="label">
+            Points
+        </div>
+    </div>
+</div>
+<div class="article-right">
+    <div>
+        <a class="text" href="{{ article.link }}">
+            {{ article.title }}
+        </a>
+    </div>
+    <div class="votes">
+            <div class="item">
+                <a style="text-decoration: none;" href (click)="voteUp()">
+                    <i class="arrow up icon"></i>
+                    upvote
+                </a>
+            </div>
+            <div class="item">
+                <a style="text-decoration: none;" href (click)="voteDown()">
+                    <i class="arrow down icon"></i>
+                    downvote
+                </a>
+            </div>
+    </div>
+</div>
+</div>
